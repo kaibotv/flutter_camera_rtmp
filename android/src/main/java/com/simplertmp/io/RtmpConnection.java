@@ -661,7 +661,7 @@ public class RtmpConnection implements RtmpPublisher {
 
     @Override
     public final String getServerId() {
-        return serverId == null ? 0 : serverId.getValue();
+        return serverId == null ? "" : serverId.getValue();
     }
 
     @Override
